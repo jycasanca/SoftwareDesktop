@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import List
 
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, HTMLResponse
 from starlette.staticfiles import StaticFiles
 import sqlite3
 import os
@@ -17,6 +17,14 @@ STATIC_DIR = BASE_DIR / 'static'
 REPORTS_DIR = BASE_DIR.parent / 'reports'
 
 app = FastAPI()
+
+# Ruta raíz que sirve el index.html
+@app.get("/", response_class=HTMLResponse)
+async def root():
+    with open(STATIC_DIR / "index.html", "r", encoding="utf-8") as f:
+        return f.read()
+
+# Montar directorio estático para otros archivos (CSS, JS, etc.)
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 try:
