@@ -3,10 +3,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*avs-a
-
-# SQLite
-*.db
 
 # Visual Studio
 .vs/
