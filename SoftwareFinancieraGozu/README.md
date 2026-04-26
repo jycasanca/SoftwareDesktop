@@ -1,10 +1,10 @@
 # Sistema Financiera Gozu
 
 Arquitectura:
-- Backend Python + FastAPI en `backend/`
-- Base de datos SQLite en `database/financiera.db`
-- Interfaz de escritorio WPF C# en `frontend/` usando WebView2
-- Frontend HTML/JS servido por FastAPI desde `backend/static/index.html`
+- Frontend React 18 + Bootstrap 5 en `frontend/`
+- Backend Node.js + Express 5 en `backend/`
+- Base de datos SQLite en `database/contable.db`
+- El esquema se crea automáticamente desde `backend/database.js`
 
 Tablas clave en SQLite:
 - `plan_contable`
@@ -15,23 +15,8 @@ Tablas clave en SQLite:
 
 ## Cómo iniciar
 
-1. Instalar dependencias Python:
-   ```bash
-   cd backend
-   C:/Users/ACER/AppData/Local/Programs/Python/Python312/python.exe -m pip install -r requirements.txt
-   ```
-
-2. Crear la base de datos (ya creada automáticamente si ejecutas):
-   ```bash
-   C:/Users/ACER/AppData/Local/Programs/Python/Python312/python.exe database.py
-   ```
-
-3. Correr el backend FastAPI:
-   ```bash
-   C:/Users/ACER/AppData/Local/Programs/Python/Python312/python.exe main.py
-   ```
-
-4. Abrir el frontend WPF en Visual Studio o compilar con .NET SDK. Si no dispone de .NET SDK, use el navegador para abrir `http://127.0.0.1:8000/static/index.html`.
+1. Ejecutar `iniciar_contable_ai.bat`.
+2. Abrir `http://localhost:3000`.
 
 ## Funcionalidades implementadas
 
@@ -40,9 +25,9 @@ Tablas clave en SQLite:
 - Procesamiento de texto para extraer conceptos y proponer asientos.
 - Validación de asientos antes de guardarlos en `libro_diario`.
 - Balance de comprobación.
-- Generación básica de PDF de estados financieros.
+- KPIs, historial y configuración base.
 
 ## Notas
 
-- El soporte de Whisper está preparado como opción en `backend/main.py`, pero requiere instalar `openai-whisper`.
-- Si no dispone de `.NET SDK`, puede usar solo el backend y la carpeta `backend/static` para probar la UI desde un navegador.
+- La base SQLite se crea automáticamente en `database/contable.db`.
+- El backend y el frontend se administran desde un único bat de inicio.

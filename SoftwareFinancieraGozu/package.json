@@ -1,0 +1,12 @@
+{
+  "name": "softwarefinancieragozu",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace backend",
+    "start": "npm run start --workspace backend"
+  }
+}
