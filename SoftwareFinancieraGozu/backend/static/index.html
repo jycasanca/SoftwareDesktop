@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Financiera Gozu</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        nav { margin-bottom: 20px; }
+        nav a { margin-right: 10px; text-decoration: none; padding: 5px; border: 1px solid #ccc; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        input, button { margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Sistema Financiera Gozu</h1>
+    <nav>
+        <a href="#" onclick="showView('diccionario')">Editor Diccionario</a>
+        <a href="#" onclick="showView('reglas')">Editor Reglas</a>
+        <a href="#" onclick="showView('procesar')">Procesar Texto/Audio</a>
+        <a href="#" onclick="showView('validacion')">Validación</a>
+        <a href="#" onclick="showView('reportes')">Reportes</a>
+    </nav>
+    <div id="content"></div>
+
+    <script>
+        let currentEntries = [];
+
+        function showView(view) {
+            const content = document.getElementById('content');
+            if (view === 'diccionario') {
+                content.innerHTML = `
+                    <h2>Editor de Diccionario</h2>
+                    <table id="dicTable">
+                        <tr><th>Palabra Usuario</th><th>Concepto Estándar</th></tr>
+                    </table>
+                    <div>
+                        <input id="palabra" placeholder="Palabra"><input id="concepto" placeholder="Concepto"><button onclick="addSinonimo()">Agregar</button>
+                    </div>
+                `;
+                loadDiccionario();
+            } else if (view === 'reglas') {
+                content.innerHTML = `
+                    <h2>Editor de Reglas</h2>
+                    <table id="reglasTable">
+                        <tr><th>Concepto</th><th>Cuenta</th><th>Naturaleza</th><th>Prioridad</th></tr>
+                    </table>
+                    <div>
+                        <input id="concReg" placeholder="Concepto"><input id="cuentaReg" placeholder="Cuenta"><input id="natReg" placeholder="Naturaleza"><input id="priReg" placeholder="Prioridad"><button onclick="addRegla()">Agregar</button>
+                    </div>
+                `;
+                loadReglas();
+            } else if (view === 'procesar') {
+                content.innerHTML = `
+                    <h2>Procesar Texto/Audio</h2>
+                    <textarea id="texto" rows="4" cols="50" placeholder="Escribe aquí el enunciado o sube un audio"></textarea><br>
+                    <input type="file" id="audioFile"><br>
+                    <input id="monto" type="number" placeholder="Monto"><br>
+                    <button onclick="processText()">Procesar Texto</button>
+                    <button onclick="processAudio()">Procesar Audio</button>
+                    <div id="result"></div>
+                `;
+            } else if (view === 'validacion') {
+                content.innerHTML = `
+                    <h2>Validación de Asientos</h2>
+                    <table id="valTable">
+                        <tr><th>Cuenta</th><th>Naturaleza</th><th>Monto</th></tr>
+                    </table>
+                    <button onclick="saveAsiento()">Guardar Asiento</button>
+                `;
+                renderValidationTable();
+            } else if (view === 'reportes') {
+                content.innerHTML = `
+                    <h2>Reportes</h2>
+                    <button onclick="getBalance()">Balance de Comprobación</button>
+                    <button onclick="generatePDF()">Generar PDF</button>
+                    <div id="report"></div>
+                `;
+            }
+        }
+
+        async function loadDiccionario() {
+            const res = await fetch('/diccionario');
+            const data = await res.json();
+            const table = document.getElementById('dicTable');
+            table.innerHTML = '<tr><th>Palabra Usuario</th><th>Concepto Estándar</th></tr>';
+            data.diccionario.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `<td>${row[1]}</td><td>${row[2]}</td>`;
+                table.appendChild(tr);
+            });
+        }
+
+        async function addSinonimo() {
+            const palabra = document.getElementById('palabra').value.trim();
+            const concepto = document.getElementById('concepto').value.trim();
+            if (!palabra || !concepto) {
+                alert('Complete palabra y concepto');
+                return;
+            }
+            const data = new URLSearchParams();
+            data.append('palabra', palabra);
+            data.append('concepto', concepto);
+            await fetch('/add_sinonimo', { method: 'POST', body: data });
+            showView('diccionario');
+        }
+
+        async function loadReglas() {
+            const res = await fetch('/matriz_comportamiento');
+            const data = await res.json();
+            const table = document.getElementById('reglasTable');
+            table.innerHTML = '<tr><th>Concepto</th><th>Cuenta</th><th>Naturaleza</th><th>Prioridad</th></tr>';
+            data.matriz.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `<td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td><td>${row[4]}</td>`;
+                table.appendChild(tr);
+            });
+        }
+
+        async function addRegla() {
+            const concepto = document.getElementById('concReg').value.trim();
+            const cuenta = document.getElementById('cuentaReg').value.trim();
+            const naturaleza = document.getElementById('natReg').value.trim().toUpperCase();
+            const prioridad = parseInt(document.getElementById('priReg').value, 10);
+            if (!concepto || !cuenta || !naturaleza || Number.isNaN(prioridad)) {
+                alert('Complete todos los campos de regla');
+                return;
+            }
+            const data = new URLSearchParams();
+            data.append('concepto', concepto);
+            data.append('cuenta', cuenta);
+            data.append('naturaleza', naturaleza);
+            data.append('prioridad', prioridad);
+            await fetch('/add_regla', { method: 'POST', body: data });
+            showView('reglas');
+        }
+
+        async function processText() {
+            const texto = document.getElementById('texto').value;
+            const monto = parseFloat(document.getElementById('monto').value);
+            if (!texto || Number.isNaN(monto)) {
+                alert('Proporcione texto y monto válidos');
+                return;
+            }
+            const body = new URLSearchParams();
+            body.append('text', texto);
+            body.append('amount', monto);
+            const res = await fetch('/process_text', { method: 'POST', body });
+            const data = await res.json();
+            currentEntries = data.entries || [];
+            renderResult(data);
+            renderValidationTable();
+            showView('validacion');
+        }
+
+        async function processAudio() {
+            const fileInput = document.getElementById('audioFile');
+            const monto = parseFloat(document.getElementById('monto').value);
+            if (!fileInput.files.length || Number.isNaN(monto)) {
+                alert('Suba un archivo de audio y proporcione el monto');
+                return;
+            }
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+            formData.append('amount', monto);
+            const res = await fetch('/process_audio', { method: 'POST', body: formData });
+            const data = await res.json();
+            currentEntries = data.entries || [];
+            renderResult(data);
+            renderValidationTable();
+            showView('validacion');
+        }
+
+        function renderResult(data) {
+            const result = document.getElementById('result');
+            if (!result) return;
+            result.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        }
+
+        function renderValidationTable() {
+            const table = document.getElementById('valTable');
+            if (!table) return;
+            table.innerHTML = '<tr><th>Cuenta</th><th>Naturaleza</th><th>Monto</th></tr>';
+            currentEntries.forEach((entry, index) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td><input data-index="${index}" data-field="cuenta" value="${entry.cuenta}"></td>
+                    <td><select data-index="${index}" data-field="naturaleza"><option value="DEBE" ${entry.naturaleza === 'DEBE' ? 'selected' : ''}>DEBE</option><option value="HABER" ${entry.naturaleza === 'HABER' ? 'selected' : ''}>HABER</option></select></td>
+                    <td><input type="number" data-index="${index}" data-field="monto" value="${entry.monto}"></td>
+                `;
+                table.appendChild(tr);
+            });
+            const inputs = table.querySelectorAll('input, select');
+            inputs.forEach(input => input.addEventListener('change', updateEntryFromInput));
+        }
+
+        function updateEntryFromInput(event) {
+            const target = event.target;
+            const index = parseInt(target.dataset.index, 10);
+            const field = target.dataset.field;
+            if (Number.isNaN(index) || !field) return;
+            if (field === 'monto') {
+                currentEntries[index][field] = parseFloat(target.value) || 0;
+            } else {
+                currentEntries[index][field] = target.value;
+            }
+        }
+
+        async function saveAsiento() {
+            if (!currentEntries.length) {
+                alert('No hay asientos para guardar');
+                return;
+            }
+            const descripcion = prompt('Descripción del asiento', 'Registro generado por el sistema');
+            if (!descripcion) return;
+            const res = await fetch('/save_asiento', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ entries: currentEntries, descripcion })
+            });
+            const data = await res.json();
+            alert(data.message || 'Guardado');
+            currentEntries = [];
+            renderValidationTable();
+        }
+
+        async function getBalance() {
+            const res = await fetch('/balance_comprobacion');
+            const data = await res.json();
+            const report = document.getElementById('report');
+            report.innerHTML = `<pre>${JSON.stringify(data.balance, null, 2)}</pre>`;
+        }
+
+        async function generatePDF() {
+            const res = await fetch('/generate_pdf');
+            if (res.ok) {
+                const blob = await res.blob();
+                const url = URL.createObjectURL(blob);
+                const report = document.getElementById('report');
+                report.innerHTML = `<a href="${url}" target="_blank">Descargar PDF de Estados Financieros</a>`;
+            } else {
+                alert('No se pudo generar el PDF');
+            }
+        }
+
+        showView('diccionario');
+    </script>
+</body>
+</html>

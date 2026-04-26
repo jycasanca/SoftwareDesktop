@@ -1,0 +1,9 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+- [x] Clarify Project Requirements
+- [x] Scaffold the Project
+- [x] Customize the Project
+- [ ] Install Required Extensions
+- [x] Compile the Project (backend dependencies installed, base DB created)
+- [x] Create and Run Task (created VS Code task to run backend)
+- [ ] Launch the Project
+- [x] Ensure Documentation is Complete
