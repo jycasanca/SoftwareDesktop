@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoftwareFinancieraGozu", "SoftwareFinancieraGozu", "{DB318AA0-73EE-E9AE-B5FE-1714F9A0CCFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{6A567970-F62E-1E92-151B-057661F90313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareFinancieraGozu", "SoftwareFinancieraGozu\frontend\SoftwareFinancieraGozu.csproj", "{17FDF937-C49B-D5E0-A0DC-13FCEF1C1973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17FDF937-C49B-D5E0-A0DC-13FCEF1C1973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FDF937-C49B-D5E0-A0DC-13FCEF1C1973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FDF937-C49B-D5E0-A0DC-13FCEF1C1973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FDF937-C49B-D5E0-A0DC-13FCEF1C1973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A567970-F62E-1E92-151B-057661F90313} = {DB318AA0-73EE-E9AE-B5FE-1714F9A0CCFC}
+		{17FDF937-C49B-D5E0-A0DC-13FCEF1C1973} = {6A567970-F62E-1E92-151B-057661F90313}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DD1089F-8DB8-4D20-ABAC-0DA4BC6564E4}
+	EndGlobalSection
+EndGlobal
