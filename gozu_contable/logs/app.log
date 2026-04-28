@@ -1,0 +1,360 @@
+2026-04-28 04:41:54 [INFO] UI Success: Logs limpiados
+2026-04-28 04:41:54 [INFO] UI Event: Clic de ratón en componente (label) pos (93, 2)
+2026-04-28 04:41:55 [INFO] UI Event: Cambio de pantalla a 'REGISTRAR'
+2026-04-28 04:41:55 [INFO] UI Event: Clic de ratón en componente (label) pos (0, 19)
+2026-04-28 04:41:56 [INFO] UI Event: Clic de ratón en componente (text) pos (196, 69)
+2026-04-28 04:41:57 [INFO] UI Event: Usuario escribió letra 'v'
+2026-04-28 04:41:58 [INFO] ================================================================================
+2026-04-28 04:41:58 [INFO] INICIANDO CLASIFICACIÓN DESDE UI - ORIGEN: TEXTO
+2026-04-28 04:41:58 [INFO] ================================================================================
+2026-04-28 04:41:58 [INFO] TEXTO A CLASIFICAR (1457 caracteres):
+2026-04-28 04:41:58 [INFO] --------------------------------------------------------------------------------
+2026-04-28 04:41:58 [INFO] Aquí tienes la transcripción de todos los enunciados de los asientos contables de las imágenes:
+
+**Taller: Ciclo Contable**
+**Proceso Contable, asientos, mayorización y elab de Estados Financieros**
+
+* La Cía ABC inicia sus operaciones el 01/04/09 para dedicarse a la comercialización de gaseosas. Los socios aportan en total S/. 10,000 en efectivo.
+* El 02/04/09 se adquirieron gaseosas por S/. 4,000 y muebles de oficina por S/. 3,000, a los que se les estimó una vida útil de 10 años con un valor de rescate del 10% de su costo de adquisición.
+* El 15/05/09 se realizó una venta por S/. 6,000, 50% al contado y 50% al crédito con factura 10/20 n/30.
+* El 30/05/09 se devuelve mercadería comprada el 02/04/09 por S/. 500 y el proveedor nos devuelve el efectivo correspondiente.
+* EL 31/05/09 se cobra la factura del día 15/05/09.
+* El 30/06/09 se recibe una donación de mercadería por S/. 1,000.
+* El 15/07/09 se compra mas gaseosas al crédito por S/. 2,000.
+* El 31/07/09 se venden gaseosas por S/. 3,000 al contado.
+* El 05/09/09 ocurre un incendio en la Cía perdiéndose mercadería valorizada en S/. 600.
+* EL 30/09/09 queda pendiente de pago sueldos del personal administrativo por S/. 1,200.
+* El 30/09/09 se paga el alquiler por S/. 800 y luz y agua por S/. 500, correspondiente a todo el período.
+* El 30/09/09 se tomó un inventario físico y se encontró mercadería valorizada en S/. 2,500.
+
+**Se pide:** Preparar los Estados Financieros al 30/09/09.
+2026-04-28 04:41:58 [INFO] --------------------------------------------------------------------------------
+2026-04-28 04:41:58 [INFO] ================================================================================
+2026-04-28 04:41:58 [INFO] INICIANDO CLASIFICACIÓN DE TEXTO
+2026-04-28 04:41:58 [INFO] UI Event: Clic de ratón en componente (label) pos (35, 0)
+2026-04-28 04:41:58 [INFO] ================================================================================
+2026-04-28 04:41:58 [INFO] TEXTO DE ENTRADA:
+Aquí tienes la transcripción de todos los enunciados de los asientos contables de las imágenes:
+
+**Taller: Ciclo Contable**
+**Proceso Contable, asientos, mayorización y elab de Estados Financieros**
+
+* La Cía ABC inicia sus operaciones el 01/04/09 para dedicarse a la comercialización de gaseosas. Los socios aportan en total S/. 10,000 en efectivo.
+* El 02/04/09 se adquirieron gaseosas por S/. 4,000 y muebles de oficina por S/. 3,000, a los que se les estimó una vida útil de 10 años con un valor de rescate del 10% de su costo de adquisición.
+* El 15/05/09 se realizó una venta por S/. 6,000, 50% al contado y 50% al crédito con factura 10/20 n/30.
+* El 30/05/09 se devuelve mercadería comprada el 02/04/09 por S/. 500 y el proveedor nos devuelve el efectivo correspondiente.
+* EL 31/05/09 se cobra la factura del día 15/05/09.
+* El 30/06/09 se recibe una donación de mercadería por S/. 1,000.
+* El 15/07/09 se compra mas gaseosas al crédito por S/. 2,000.
+* El 31/07/09 se venden gaseosas por S/. 3,000 al contado.
+* El 05/09/09 ocurre un incendio en la Cía perdiéndose mercadería valorizada en S/. 600.
+* EL 30/09/09 queda pendiente de pago sueldos del personal administrativo por S/. 1,200.
+* El 30/09/09 se paga el alquiler por S/. 800 y luz y agua por S/. 500, correspondiente a todo el período.
+* El 30/09/09 se tomó un inventario físico y se encontró mercadería valorizada en S/. 2,500.
+
+**Se pide:** Preparar los Estados Financieros al 30/09/09.
+2026-04-28 04:41:58 [INFO] MONTO MANUAL PROPORCIONADO: None
+2026-04-28 04:41:58 [INFO]   [OP 1] * La Cía ABC inicia sus operaciones el 01/04/09 para dedicarse a la comercializa...
+2026-04-28 04:41:58 [INFO]   [OP 2] * El 02/04/09 se adquirieron gaseosas por S/. 4,000 y muebles de oficina por S/....
+2026-04-28 04:41:58 [INFO]   [OP 3] * El 15/05/09 se realizó una venta por S/. 6,000, 50% al contado y 50% al crédit...
+2026-04-28 04:41:58 [INFO]   [OP 4] * El 30/05/09 se devuelve mercadería comprada el 02/04/09 por S/. 500 y el prove...
+2026-04-28 04:41:58 [INFO]   [OP 5] * EL 31/05/09 se cobra la factura del día 15/05/09....
+2026-04-28 04:41:58 [INFO]   [OP 6] * El 30/06/09 se recibe una donación de mercadería por S/. 1,000....
+2026-04-28 04:41:58 [INFO]   [OP 7] * El 15/07/09 se compra mas gaseosas al crédito por S/. 2,000....
+2026-04-28 04:41:58 [INFO]   [OP 8] * El 31/07/09 se venden gaseosas por S/. 3,000 al contado....
+2026-04-28 04:41:58 [INFO]   [OP 9] * El 05/09/09 ocurre un incendio en la Cía perdiéndose mercadería valorizada en ...
+2026-04-28 04:41:58 [INFO]   [OP 10] * EL 30/09/09 queda pendiente de pago sueldos del personal administrativo por S/...
+2026-04-28 04:41:58 [INFO]   [OP 11] * El 30/09/09 se paga el alquiler por S/. 800 y luz y agua por S/. 500, correspo...
+2026-04-28 04:41:58 [INFO]   [OP 12] * El 30/09/09 se tomó un inventario físico y se encontró mercadería valorizada e...
+2026-04-28 04:41:58 [INFO] OPERACIONES SEPARADAS: 12
+2026-04-28 04:41:58 [INFO]   [1] * La Cía ABC inicia sus operaciones el 01/04/09 para dedicarse a la comercializa...
+2026-04-28 04:41:58 [INFO]   [2] * El 02/04/09 se adquirieron gaseosas por S/. 4,000 y muebles de oficina por S/....
+2026-04-28 04:41:58 [INFO]   [3] * El 15/05/09 se realizó una venta por S/. 6,000, 50% al contado y 50% al crédit...
+2026-04-28 04:41:58 [INFO]   [4] * El 30/05/09 se devuelve mercadería comprada el 02/04/09 por S/. 500 y el prove...
+2026-04-28 04:41:58 [INFO]   [5] * EL 31/05/09 se cobra la factura del día 15/05/09....
+2026-04-28 04:41:58 [INFO]   [6] * El 30/06/09 se recibe una donación de mercadería por S/. 1,000....
+2026-04-28 04:41:58 [INFO]   [7] * El 15/07/09 se compra mas gaseosas al crédito por S/. 2,000....
+2026-04-28 04:41:58 [INFO]   [8] * El 31/07/09 se venden gaseosas por S/. 3,000 al contado....
+2026-04-28 04:41:58 [INFO]   [9] * El 05/09/09 ocurre un incendio en la Cía perdiéndose mercadería valorizada en ...
+2026-04-28 04:41:58 [INFO]   [10] * EL 30/09/09 queda pendiente de pago sueldos del personal administrativo por S/...
+2026-04-28 04:41:58 [INFO]   [11] * El 30/09/09 se paga el alquiler por S/. 800 y luz y agua por S/. 500, correspo...
+2026-04-28 04:41:58 [INFO]   [12] * El 30/09/09 se tomó un inventario físico y se encontró mercadería valorizada e...
+2026-04-28 04:41:58 [INFO] 
+--- PROCESANDO OPERACIÓN 1/12 ---
+2026-04-28 04:41:58 [INFO] TEXTO OPERACIÓN: * La Cía ABC inicia sus operaciones el 01/04/09 para dedicarse a la comercialización de gaseosas. Los socios aportan en total S/. 10,000 en efectivo.
+2026-04-28 04:41:58 [INFO] FECHA EXTRAÍDA: 2009-04-01
+2026-04-28 04:41:58 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:58 [INFO] TEXTO NORMALIZADO: * la cia abc inicia sus operaciones el 01/04/09 para dedicarse a la comercializacion de gaseosas. lo...
+2026-04-28 04:41:58 [INFO] PALABRAS: ['*', 'la', 'cia', 'abc', 'inicia', 'sus', 'operaciones', 'el', '01/04/09', 'para']...
+2026-04-28 04:41:58 [INFO] PALABRAS EN DICCIONARIO: ['socios']
+2026-04-28 04:41:58 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:58 [INFO]   - Regla #404 (aporte, socio...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO]   - Regla #273 (venta, efectivo...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO]   - Regla #249 (compra, efectivo...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO]   - Regla #241 (compra, gaseosas...): 33.3% (1/3)
+2026-04-28 04:41:58 [INFO]   - Regla #424 (seguro, por...): 33.3% (1/3)
+2026-04-28 04:41:58 [INFO] REGLA SELECCIONADA: Regla #404
+2026-04-28 04:41:58 [INFO]   Score: 50.0%
+2026-04-28 04:41:58 [INFO] MONTOS EXTRAÍDOS: [10000.0]
+2026-04-28 04:41:58 [INFO]   LÍNEA DEBE: Cuenta 10 → S/. 10000.00
+2026-04-28 04:41:58 [INFO]   LÍNEA HABER: Cuenta 50 → S/. 10000.00
+2026-04-28 04:41:58 [INFO]   ✓ ASIENTO #1 CREADO
+2026-04-28 04:41:58 [INFO] 
+--- PROCESANDO OPERACIÓN 2/12 ---
+2026-04-28 04:41:58 [INFO] TEXTO OPERACIÓN: * El 02/04/09 se adquirieron gaseosas por S/. 4,000 y muebles de oficina por S/. 3,000, a los que se les estimó una vida útil de 10 años con un valor de rescate del 10% de su costo de adquisición.
+2026-04-28 04:41:58 [INFO] FECHA EXTRAÍDA: 2009-04-02
+2026-04-28 04:41:58 [INFO] CONCEPTOS DETECTADOS: 2
+2026-04-28 04:41:58 [INFO]   CONCEPTO: * El 02/04/09 se adquirieron gaseosas por S/. 4,00... → Cuenta 40 (S/. 4000.00)
+2026-04-28 04:41:58 [INFO]   CONCEPTO: muebles de oficina por S/. 3,000, a los que se les... → Cuenta 69 (S/. 3000.00)
+2026-04-28 04:41:58 [INFO]   CONTRAPARTIDA: Cuenta 10 (S/. 7000.00)
+2026-04-28 04:41:58 [INFO]   ✓ ASIENTO #2 CREADO CON 3 LÍNEAS
+2026-04-28 04:41:58 [INFO] 
+--- PROCESANDO OPERACIÓN 3/12 ---
+2026-04-28 04:41:58 [INFO] TEXTO OPERACIÓN: * El 15/05/09 se realizó una venta por S/. 6,000, 50% al contado y 50% al crédito con factura 10/20 n/30.
+2026-04-28 04:41:58 [INFO] FECHA EXTRAÍDA: 2009-05-15
+2026-04-28 04:41:58 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:58 [INFO] TEXTO NORMALIZADO: * el 15/05/09 se realizo una venta por s/. 6,000, 50% al contado y 50% al credito con factura 10/20 ...
+2026-04-28 04:41:58 [INFO] PALABRAS: ['*', 'el', '15/05/09', 'se', 'realizo', 'una', 'venta', 'por', 's/.', '6,000,']...
+2026-04-28 04:41:58 [INFO] PALABRAS EN DICCIONARIO: ['venta', 'contado', 'credito']
+2026-04-28 04:41:58 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:58 [INFO]   - Regla #269 (venta, contado...): 100.0% (2/2)
+2026-04-28 04:41:58 [INFO]   - Regla #275 (venta, credito...): 100.0% (2/2)
+2026-04-28 04:41:58 [INFO]   - Regla #427 (venta, maquinaria...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO]   - Regla #428 (venta, vehiculo...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO]   - Regla #436 (devolucion, venta...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO] REGLA SELECCIONADA: Regla #269
+2026-04-28 04:41:58 [INFO]   Score: 100.0%
+2026-04-28 04:41:58 [INFO] MONTOS EXTRAÍDOS: [6000.0]
+2026-04-28 04:41:58 [INFO]   LÍNEA DEBE: Cuenta 10 → S/. 6000.00
+2026-04-28 04:41:58 [INFO]   LÍNEA HABER: Cuenta 70 → S/. 6000.00
+2026-04-28 04:41:58 [INFO]   ✓ ASIENTO #3 CREADO
+2026-04-28 04:41:58 [INFO] 
+--- PROCESANDO OPERACIÓN 4/12 ---
+2026-04-28 04:41:58 [INFO] TEXTO OPERACIÓN: * El 30/05/09 se devuelve mercadería comprada el 02/04/09 por S/. 500 y el proveedor nos devuelve el efectivo correspondiente.
+2026-04-28 04:41:58 [INFO] FECHA EXTRAÍDA: 2009-05-30
+2026-04-28 04:41:58 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:58 [INFO] TEXTO NORMALIZADO: * el 30/05/09 se devuelve mercaderia comprada el 02/04/09 por s/. 500 y el proveedor nos devuelve el...
+2026-04-28 04:41:58 [INFO] PALABRAS: ['*', 'el', '30/05/09', 'se', 'devuelve', 'mercaderia', 'comprada', 'el', '02/04/09', 'por']...
+2026-04-28 04:41:58 [INFO] PALABRAS EN DICCIONARIO: ['mercaderia', 'proveedor', 'efectivo']
+2026-04-28 04:41:58 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:58 [INFO]   - Regla #249 (compra, efectivo...): 100.0% (2/2)
+2026-04-28 04:41:58 [INFO]   - Regla #458 (paga, proveedor...): 66.7% (2/3)
+2026-04-28 04:41:58 [INFO]   - Regla #239 (compra, mercaderia...): 66.7% (2/3)
+2026-04-28 04:41:58 [INFO]   - Regla #240 (compra, mercadería...): 66.7% (2/3)
+2026-04-28 04:41:58 [INFO]   - Regla #248 (compra, mercaderia...): 66.7% (2/3)
+2026-04-28 04:41:58 [INFO] REGLA SELECCIONADA: Regla #249
+2026-04-28 04:41:58 [INFO]   Score: 100.0%
+2026-04-28 04:41:58 [INFO] MONTOS EXTRAÍDOS: [500.0]
+2026-04-28 04:41:58 [INFO]   LÍNEA DEBE: Cuenta 60 → S/. 500.00
+2026-04-28 04:41:58 [INFO]   LÍNEA HABER: Cuenta 10 → S/. 500.00
+2026-04-28 04:41:58 [INFO]   ✓ ASIENTO #4 CREADO
+2026-04-28 04:41:58 [INFO] 
+--- PROCESANDO OPERACIÓN 5/12 ---
+2026-04-28 04:41:58 [INFO] TEXTO OPERACIÓN: * EL 31/05/09 se cobra la factura del día 15/05/09.
+2026-04-28 04:41:58 [INFO] FECHA EXTRAÍDA: 2009-05-31
+2026-04-28 04:41:58 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:58 [INFO] TEXTO NORMALIZADO: * el 31/05/09 se cobra la factura del dia 15/05/09....
+2026-04-28 04:41:58 [INFO] PALABRAS: ['*', 'el', '31/05/09', 'se', 'cobra', 'la', 'factura', 'del', 'dia', '15/05/09.']...
+2026-04-28 04:41:58 [INFO] PALABRAS EN DICCIONARIO: []
+2026-04-28 04:41:58 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:58 [INFO]   - Regla #461 (cobra, contado...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO]   - Regla #283 (cobra, clientes...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO]   - Regla #289 (cobro, factura...): 50.0% (1/2)
+2026-04-28 04:41:58 [INFO]   - Regla #295 (pago, factura...): 33.3% (1/3)
+2026-04-28 04:41:58 [INFO]   - Regla #329 (alquiler, luz...): 0.0% (0/3)
+2026-04-28 04:41:58 [INFO] REGLA SELECCIONADA: Regla #461
+2026-04-28 04:41:58 [INFO]   Score: 50.0%
+2026-04-28 04:41:58 [INFO] MONTOS EXTRAÍDOS: [] (operación referencial)
+2026-04-28 04:41:58 [INFO]   LÍNEA DEBE: Cuenta 10 → (sin monto)
+2026-04-28 04:41:58 [INFO]   LÍNEA HABER: Cuenta 70 → (sin monto)
+2026-04-28 04:41:58 [INFO]   ✓ ASIENTO #5 CREADO
+2026-04-28 04:41:58 [INFO] 
+--- PROCESANDO OPERACIÓN 6/12 ---
+2026-04-28 04:41:58 [INFO] TEXTO OPERACIÓN: * El 30/06/09 se recibe una donación de mercadería por S/. 1,000.
+2026-04-28 04:41:58 [INFO] FECHA EXTRAÍDA: 2009-06-30
+2026-04-28 04:41:58 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:58 [INFO] TEXTO NORMALIZADO: * el 30/06/09 se recibe una donacion de mercaderia por s/. 1,000....
+2026-04-28 04:41:58 [INFO] PALABRAS: ['*', 'el', '30/06/09', 'se', 'recibe', 'una', 'donacion', 'de', 'mercaderia', 'por']...
+2026-04-28 04:41:59 [INFO] PALABRAS EN DICCIONARIO: ['donacion', 'mercaderia']
+2026-04-28 04:41:59 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:59 [INFO]   - Regla #350 (incendio, mercaderia...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO]   - Regla #351 (incendio, mercadería...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO]   - Regla #352 (siniestro, mercaderia...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO]   - Regla #353 (robo, mercaderia...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO]   - Regla #354 (hurto, mercaderia...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO] REGLA SELECCIONADA: Regla #350
+2026-04-28 04:41:59 [INFO]   Score: 50.0%
+2026-04-28 04:41:59 [INFO] MONTOS EXTRAÍDOS: [1000.0]
+2026-04-28 04:41:59 [INFO]   LÍNEA DEBE: Cuenta 65 → S/. 1000.00
+2026-04-28 04:41:59 [INFO]   LÍNEA HABER: Cuenta 20 → S/. 1000.00
+2026-04-28 04:41:59 [INFO]   ✓ ASIENTO #6 CREADO
+2026-04-28 04:41:59 [INFO] 
+--- PROCESANDO OPERACIÓN 7/12 ---
+2026-04-28 04:41:59 [INFO] TEXTO OPERACIÓN: * El 15/07/09 se compra mas gaseosas al crédito por S/. 2,000.
+2026-04-28 04:41:59 [INFO] FECHA EXTRAÍDA: 2009-07-15
+2026-04-28 04:41:59 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:59 [INFO] TEXTO NORMALIZADO: * el 15/07/09 se compra mas gaseosas al credito por s/. 2,000....
+2026-04-28 04:41:59 [INFO] PALABRAS: ['*', 'el', '15/07/09', 'se', 'compra', 'mas', 'gaseosas', 'al', 'credito', 'por']...
+2026-04-28 04:41:59 [INFO] PALABRAS EN DICCIONARIO: ['compra', 'gaseosas', 'credito']
+2026-04-28 04:41:59 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:59 [INFO]   - Regla #241 (compra, gaseosas...): 100.0% (3/3)
+2026-04-28 04:41:59 [INFO]   - Regla #238 (compra, credito...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #242 (compra, bebidas...): 66.7% (2/3)
+2026-04-28 04:41:59 [INFO]   - Regla #243 (compra, productos...): 66.7% (2/3)
+2026-04-28 04:41:59 [INFO]   - Regla #239 (compra, mercaderia...): 66.7% (2/3)
+2026-04-28 04:41:59 [INFO] REGLA SELECCIONADA: Regla #241
+2026-04-28 04:41:59 [INFO]   Score: 100.0%
+2026-04-28 04:41:59 [INFO] MONTOS EXTRAÍDOS: [2000.0]
+2026-04-28 04:41:59 [INFO]   LÍNEA DEBE: Cuenta 60 → S/. 2000.00
+2026-04-28 04:41:59 [INFO]   LÍNEA HABER: Cuenta 42 → S/. 2000.00
+2026-04-28 04:41:59 [INFO]   ✓ ASIENTO #7 CREADO
+2026-04-28 04:41:59 [INFO] 
+--- PROCESANDO OPERACIÓN 8/12 ---
+2026-04-28 04:41:59 [INFO] TEXTO OPERACIÓN: * El 31/07/09 se venden gaseosas por S/. 3,000 al contado.
+2026-04-28 04:41:59 [INFO] FECHA EXTRAÍDA: 2009-07-31
+2026-04-28 04:41:59 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:59 [INFO] TEXTO NORMALIZADO: * el 31/07/09 se venden gaseosas por s/. 3,000 al contado....
+2026-04-28 04:41:59 [INFO] PALABRAS: ['*', 'el', '31/07/09', 'se', 'venden', 'gaseosas', 'por', 's/.', '3,000', 'al']...
+2026-04-28 04:41:59 [INFO] PALABRAS EN DICCIONARIO: ['venden', 'gaseosas']
+2026-04-28 04:41:59 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:59 [INFO]   - Regla #270 (vende, contado...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #271 (venden, contado...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #461 (cobra, contado...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO]   - Regla #462 (cobrado, contado...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO]   - Regla #247 (compra, contado...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO] REGLA SELECCIONADA: Regla #270
+2026-04-28 04:41:59 [INFO]   Score: 100.0%
+2026-04-28 04:41:59 [INFO] MONTOS EXTRAÍDOS: [3000.0]
+2026-04-28 04:41:59 [INFO]   LÍNEA DEBE: Cuenta 10 → S/. 3000.00
+2026-04-28 04:41:59 [INFO]   LÍNEA HABER: Cuenta 70 → S/. 3000.00
+2026-04-28 04:41:59 [INFO]   ✓ ASIENTO #8 CREADO
+2026-04-28 04:41:59 [INFO] 
+--- PROCESANDO OPERACIÓN 9/12 ---
+2026-04-28 04:41:59 [INFO] TEXTO OPERACIÓN: * El 05/09/09 ocurre un incendio en la Cía perdiéndose mercadería valorizada en S/. 600.
+2026-04-28 04:41:59 [INFO] FECHA EXTRAÍDA: 2009-09-05
+2026-04-28 04:41:59 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:59 [INFO] TEXTO NORMALIZADO: * el 05/09/09 ocurre un incendio en la cia perdiendose mercaderia valorizada en s/. 600....
+2026-04-28 04:41:59 [INFO] PALABRAS: ['*', 'el', '05/09/09', 'ocurre', 'un', 'incendio', 'en', 'la', 'cia', 'perdiendose']...
+2026-04-28 04:41:59 [INFO] PALABRAS EN DICCIONARIO: ['incendio', 'mercaderia']
+2026-04-28 04:41:59 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:59 [INFO]   - Regla #350 (incendio, mercaderia...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #351 (incendio, mercadería...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #360 (mercaderia, incendio...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #375 (mercaderia, valorizada...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #376 (mercadería, valorizada...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO] REGLA SELECCIONADA: Regla #350
+2026-04-28 04:41:59 [INFO]   Score: 100.0%
+2026-04-28 04:41:59 [INFO] MONTOS EXTRAÍDOS: [600.0]
+2026-04-28 04:41:59 [INFO]   LÍNEA DEBE: Cuenta 65 → S/. 600.00
+2026-04-28 04:41:59 [INFO]   LÍNEA HABER: Cuenta 20 → S/. 600.00
+2026-04-28 04:41:59 [INFO]   ✓ ASIENTO #9 CREADO
+2026-04-28 04:41:59 [INFO] 
+--- PROCESANDO OPERACIÓN 10/12 ---
+2026-04-28 04:41:59 [INFO] TEXTO OPERACIÓN: * EL 30/09/09 queda pendiente de pago sueldos del personal administrativo por S/. 1,200.
+2026-04-28 04:41:59 [INFO] FECHA EXTRAÍDA: 2009-09-30
+2026-04-28 04:41:59 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:59 [INFO] TEXTO NORMALIZADO: * el 30/09/09 queda pendiente de pago sueldos del personal administrativo por s/. 1,200....
+2026-04-28 04:41:59 [INFO] PALABRAS: ['*', 'el', '30/09/09', 'queda', 'pendiente', 'de', 'pago', 'sueldos', 'del', 'personal']...
+2026-04-28 04:41:59 [INFO] PALABRAS EN DICCIONARIO: ['sueldos', 'personal']
+2026-04-28 04:41:59 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:59 [INFO]   - Regla #303 (queda, pendiente...): 100.0% (3/3)
+2026-04-28 04:41:59 [INFO]   - Regla #298 (sueldo, pendiente...): 100.0% (3/3)
+2026-04-28 04:41:59 [INFO]   - Regla #300 (personal, administrativo...): 100.0% (3/3)
+2026-04-28 04:41:59 [INFO]   - Regla #301 (sueldos, personal...): 100.0% (3/3)
+2026-04-28 04:41:59 [INFO]   - Regla #459 (queda, pendiente...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO] REGLA SELECCIONADA: Regla #303
+2026-04-28 04:41:59 [INFO]   Score: 100.0%
+2026-04-28 04:41:59 [INFO] MONTOS EXTRAÍDOS: [1200.0]
+2026-04-28 04:41:59 [INFO]   LÍNEA DEBE: Cuenta 62 → S/. 1200.00
+2026-04-28 04:41:59 [INFO]   LÍNEA HABER: Cuenta 41 → S/. 1200.00
+2026-04-28 04:41:59 [INFO]   ✓ ASIENTO #10 CREADO
+2026-04-28 04:41:59 [INFO] 
+--- PROCESANDO OPERACIÓN 11/12 ---
+2026-04-28 04:41:59 [INFO] TEXTO OPERACIÓN: * El 30/09/09 se paga el alquiler por S/. 800 y luz y agua por S/. 500, correspondiente a todo el período.
+2026-04-28 04:41:59 [INFO] FECHA EXTRAÍDA: 2009-09-30
+2026-04-28 04:41:59 [INFO] CONCEPTOS DETECTADOS: 2
+2026-04-28 04:41:59 [INFO]   CONCEPTO: * El 30/09/09 se paga el alquiler por S/. 800... → Cuenta 63 (S/. 800.00)
+2026-04-28 04:41:59 [INFO]   CONCEPTO: luz y agua por S/. 500, correspondiente a todo el ... → Cuenta 63 (S/. 500.00)
+2026-04-28 04:41:59 [INFO]   CONTRAPARTIDA: Cuenta 10 (S/. 1300.00)
+2026-04-28 04:41:59 [INFO]   ✓ ASIENTO #11 CREADO CON 3 LÍNEAS
+2026-04-28 04:41:59 [INFO] 
+--- PROCESANDO OPERACIÓN 12/12 ---
+2026-04-28 04:41:59 [INFO] TEXTO OPERACIÓN: * El 30/09/09 se tomó un inventario físico y se encontró mercadería valorizada en S/. 2,500. **Se pide:** Preparar los Estados Financieros al 30/09/09.
+2026-04-28 04:41:59 [INFO] FECHA EXTRAÍDA: 2009-09-30
+2026-04-28 04:41:59 [INFO] CONCEPTOS DETECTADOS: 1
+2026-04-28 04:41:59 [INFO] TEXTO NORMALIZADO: * el 30/09/09 se tomo un inventario fisico y se encontro mercaderia valorizada en s/. 2,500. **se pi...
+2026-04-28 04:41:59 [INFO] PALABRAS: ['*', 'el', '30/09/09', 'se', 'tomo', 'un', 'inventario', 'fisico', 'y', 'se']...
+2026-04-28 04:41:59 [INFO] PALABRAS EN DICCIONARIO: ['inventario', 'mercaderia']
+2026-04-28 04:41:59 [INFO] SCORES DE REGLAS (top 5):
+2026-04-28 04:41:59 [INFO]   - Regla #370 (inventario, fisico...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #371 (inventario, físico...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #375 (mercaderia, valorizada...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #376 (mercadería, valorizada...): 100.0% (2/2)
+2026-04-28 04:41:59 [INFO]   - Regla #350 (incendio, mercaderia...): 50.0% (1/2)
+2026-04-28 04:41:59 [INFO] REGLA SELECCIONADA: Regla #370
+2026-04-28 04:41:59 [INFO]   Score: 100.0%
+2026-04-28 04:41:59 [INFO] MONTOS EXTRAÍDOS: [2500.0]
+2026-04-28 04:41:59 [INFO]   LÍNEA DEBE: Cuenta 20 → S/. 2500.00
+2026-04-28 04:41:59 [INFO]   LÍNEA HABER: Cuenta 61 → S/. 2500.00
+2026-04-28 04:41:59 [INFO]   ✓ ASIENTO #12 CREADO
+2026-04-28 04:41:59 [INFO] 
+================================================================================
+2026-04-28 04:41:59 [INFO] RESUMEN DE CLASIFICACIÓN
+2026-04-28 04:41:59 [INFO] ================================================================================
+2026-04-28 04:41:59 [INFO] TOTAL ASIENTOS GENERADOS: 12
+2026-04-28 04:41:59 [INFO]   Asiento #1: Fecha 2009-04-01 - 2 líneas - Debe: S/. 10000.00 - Haber: S/. 10000.00
+2026-04-28 04:41:59 [INFO]   Asiento #2: Fecha 2009-04-02 - 3 líneas - Debe: S/. 7000.00 - Haber: S/. 7000.00
+2026-04-28 04:41:59 [INFO]   Asiento #3: Fecha 2009-05-15 - 2 líneas - Debe: S/. 6000.00 - Haber: S/. 6000.00
+2026-04-28 04:41:59 [INFO]   Asiento #4: Fecha 2009-05-30 - 2 líneas - Debe: S/. 500.00 - Haber: S/. 500.00
+2026-04-28 04:41:59 [INFO]   Asiento #5: Fecha 2009-05-31 - 2 líneas - Debe: S/. 0.00 - Haber: S/. 0.00
+2026-04-28 04:41:59 [INFO]   Asiento #6: Fecha 2009-06-30 - 2 líneas - Debe: S/. 1000.00 - Haber: S/. 1000.00
+2026-04-28 04:41:59 [INFO]   Asiento #7: Fecha 2009-07-15 - 2 líneas - Debe: S/. 2000.00 - Haber: S/. 2000.00
+2026-04-28 04:41:59 [INFO]   Asiento #8: Fecha 2009-07-31 - 2 líneas - Debe: S/. 3000.00 - Haber: S/. 3000.00
+2026-04-28 04:41:59 [INFO]   Asiento #9: Fecha 2009-09-05 - 2 líneas - Debe: S/. 600.00 - Haber: S/. 600.00
+2026-04-28 04:41:59 [INFO]   Asiento #10: Fecha 2009-09-30 - 2 líneas - Debe: S/. 1200.00 - Haber: S/. 1200.00
+2026-04-28 04:41:59 [INFO]   Asiento #11: Fecha 2009-09-30 - 3 líneas - Debe: S/. 1300.00 - Haber: S/. 1300.00
+2026-04-28 04:41:59 [INFO]   Asiento #12: Fecha 2009-09-30 - 2 líneas - Debe: S/. 2500.00 - Haber: S/. 2500.00
+2026-04-28 04:41:59 [INFO] Fechas detectadas: ['2009-04-01', '2009-05-15', '2009-06-30', '2009-05-30', '2009-07-15', '2009-07-31', '2009-09-05', '2009-04-02', '2009-09-30', '2009-05-31']
+2026-04-28 04:41:59 [INFO] ================================================================================
+2026-04-28 04:41:59 [INFO] ================================================================================
+2026-04-28 04:41:59 [INFO] RESULTADO DE CLASIFICACIÓN EN UI
+2026-04-28 04:41:59 [INFO] ================================================================================
+2026-04-28 04:41:59 [INFO] Fuente: reglas
+2026-04-28 04:41:59 [INFO] Confianza: alta
+2026-04-28 04:41:59 [INFO] Explicación: Regla con score 50% | Regla con score 100% | Regla con múltiples conceptos
+2026-04-28 04:41:59 [INFO] Fechas detectadas: ['2009-04-01', '2009-05-15', '2009-06-30', '2009-05-30', '2009-07-15', '2009-07-31', '2009-09-05', '2009-04-02', '2009-09-30', '2009-05-31']
+2026-04-28 04:41:59 [INFO] Palabras encontradas: ['paga', 'luz', 'costo', 'pago']
+2026-04-28 04:41:59 [INFO] Total líneas: 26
+2026-04-28 04:41:59 [INFO]   Línea 1: Cuenta 10 - efectivo - Debe: 10000.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 2: Cuenta 50 - Capital - Debe: 0.00 - Haber: 10000.00
+2026-04-28 04:41:59 [INFO]   Línea 3: Cuenta 40 - Tributos y Aportes al Sistema de Pension - Debe: 4000.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 4: Cuenta 69 - Costo de Ventas - Debe: 3000.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 5: Cuenta 10 - efectivo - Debe: 0.00 - Haber: 7000.00
+2026-04-28 04:41:59 [INFO]   Línea 6: Cuenta 10 - efectivo - Debe: 6000.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 7: Cuenta 70 - Ventas - Debe: 0.00 - Haber: 6000.00
+2026-04-28 04:41:59 [INFO]   Línea 8: Cuenta 60 - Compras - Debe: 500.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 9: Cuenta 10 - efectivo - Debe: 0.00 - Haber: 500.00
+2026-04-28 04:41:59 [INFO]   Línea 10: Cuenta 10 - efectivo - Debe: 0.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 11: Cuenta 70 - Ventas - Debe: 0.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 12: Cuenta 65 - Otros Gastos de Gestión - Debe: 1000.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 13: Cuenta 20 - Mercaderías - Debe: 0.00 - Haber: 1000.00
+2026-04-28 04:41:59 [INFO]   Línea 14: Cuenta 60 - Compras - Debe: 2000.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 15: Cuenta 42 - Cuentas por Pagar Comerciales - Terceros - Debe: 0.00 - Haber: 2000.00
+2026-04-28 04:41:59 [INFO]   Línea 16: Cuenta 10 - efectivo - Debe: 3000.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 17: Cuenta 70 - Ventas - Debe: 0.00 - Haber: 3000.00
+2026-04-28 04:41:59 [INFO]   Línea 18: Cuenta 65 - Otros Gastos de Gestión - Debe: 600.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 19: Cuenta 20 - Mercaderías - Debe: 0.00 - Haber: 600.00
+2026-04-28 04:41:59 [INFO]   Línea 20: Cuenta 62 - Gastos de Personal, Directores y Gerente - Debe: 1200.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 21: Cuenta 41 - Remuneraciones y Participaciones por Pag - Debe: 0.00 - Haber: 1200.00
+2026-04-28 04:41:59 [INFO]   Línea 22: Cuenta 63 - Gastos de Servicios Prestados por Tercer - Debe: 800.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 23: Cuenta 63 - Gastos de Servicios Prestados por Tercer - Debe: 500.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 24: Cuenta 10 - efectivo - Debe: 0.00 - Haber: 1300.00
+2026-04-28 04:41:59 [INFO]   Línea 25: Cuenta 20 - Mercaderías - Debe: 2500.00 - Haber: 0.00
+2026-04-28 04:41:59 [INFO]   Línea 26: Cuenta 61 - Variación de Existencias - Debe: 0.00 - Haber: 2500.00
+2026-04-28 04:41:59 [INFO] ================================================================================
+2026-04-28 04:42:23 [INFO] UI Event: Cambio de pantalla a 'CONFIGURACION'
+2026-04-28 04:42:24 [INFO] UI Event: Clic de ratón en componente (label) pos (53, 13)
+2026-04-28 04:42:25 [INFO] UI Event: Clic de ratón en componente (label) pos (97, 5)
+2026-04-28 04:42:26 [INFO] UI Event: Clic de ratón en componente (text) pos (768, 461)
+2026-04-28 04:42:35 [INFO] UI Event: Usuario escribió letra 'c'
+2026-04-28 04:42:35 [INFO] UI Event: Usuario escribió letra 'c'
